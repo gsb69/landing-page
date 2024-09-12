@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Roboto;
+
+}
+header,.intro{
+    background-color: #1f2937;
+    padding: 20px 150px ;
+    display: flex;
+    color: #e5e7eb;
+}
+.header{
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    flex: 1;
+    font-weight: bold;
+}
+
+.header-list{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.intro{
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 25px;
+    margin-bottom: 15px;
+}
+
+.intro > *{
+    flex: 1;
+}
+
+.first{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.second{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 10px 25px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0;
+    border-color: #f9faf8;
+    border-width: 5px;
+}
+
+.intro img{
+   width: 500px;
+   height: auto; 
+}
+
+.random{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+     
+}
+.random .didi{
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 270px;
+}
+
+.boxes div{
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    width: 150px;
+
+}
+
+.boxes div img{
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+
+
+.boxes div p{
+    font-size: 16px;
+    font-weight: 50%;
+}
+
+.quote{
+    padding: 100px 250px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight:350;
+    color: #1f2937;
+    background-color: #e5e7eb;
+}
+.quote span{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    float: inline-end;
+}
+
+.signing{
+    padding: 35px 250px;
+}
+
+.box{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px;
+    border-radius: 25px;
+    color: #f9faf8;
+}
+.box button{
+    border-color: #f9faf8;
+    border-width: 5px;
+}
+
+footer{
+    text-align: center;
+    background-color:#1f2937;
+    color: #f9faf8;
+    padding: 40px;
+}
